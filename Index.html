@@ -1,0 +1,441 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="Images/favicon.ico">
+    <link href="Styles/bootstrap.css" rel="stylesheet" />
+    <link href="Styles/Flickity.css" rel="stylesheet" />
+    <link href="Styles/flexslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="Styles/style.css" rel="stylesheet" />
+    <!--<link href="Styles/swiper.css" rel="stylesheet"/>-->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">-->
+    <!--<link href="Styles/swiper.min.css" rel="stylesheet" />-->
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <!--<script src="Scripts/jquery-3.2.1.min.js"></script>-->
+    <script src="Scripts/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <div class="banner">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="logo col-sm-2">
+                        <a href="#">
+                            <img src="Images/Nav-logo.png" class="img-responsive" />
+                        </a>
+                    </div>
+                    <div class="left-nav col-sm-6 hidden-xs">
+                        <span class="menu"> </span>
+                        <ul>
+                            <li class="active"><a href="#home" class="scroll">Home</a></li>
+                            <li><a href="#about" class="scroll">About Us</a></li>
+                            <li><a href="#products" class="scroll">Products</a></li>
+                            <li><a href="#contact-us" class="scroll">Contact Us</a></li>
+                            <div class="clearfix"> </div>
+                        </ul>
+                    </div>
+                    <!-- script-for-nav -->
+                    <script>
+                        $("span.menu").click(function () {
+                            $(".left-nav ul").slideToggle(300, function () {
+                                // Animation complete.
+                            });
+                        });
+                    </script>
+                    <!-- script-for-nav -->
+                    <div class="icons col-sm-2">
+
+                        <a class="social-icons" href="https://www.facebook.com/Go-Nutrition-470630596612839" target="_blank">
+                            <img src="Images/Facebook-Icon.png" />
+                        </a>
+                        <a class="social-icons" href="https://www.instagram.com/go_nutrition_world" target="_blank">
+
+                            <img src="Images/Instagram-ico.png"/>
+                        </a>
+                        <a class="social-icons hidden-md hidden-lg hidden-sm" href="https://api.whatsapp.com/send?phone=201060590101" target="_blank">
+                            <img src="Images/WhatsApp_Icon.png" />
+                        </a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header -->
+    <!-- carousel -->
+    <div class="main-carousel" id="home">
+        <div class="carousel-cell">
+            <img src="Images/jar-img.jpg" class="img-responsive slider-img" />
+            <div class="caption">
+                <h1 class="caption-txt">Go Whey Protein</h1>
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <img src="Images/GreenBar-img.jpg" class="img-responsive slider-img" />
+            <div class="caption">
+                <h1 class="caption-txt">Go Protein Bar Coffee</h1>
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <img src="Images/musles-img.jpg" class="img-responsive slider-img" />
+            <div class="caption">
+                <h1 class="caption-txt">Go Protein Bar muscles</h1>
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <img src="Images/RedBar-img-2.jpg" class="img-responsive slider-img" />
+            <div class="caption">
+                <h1 class="caption-txt">Go Protein Bar cocconut</h1>
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <img src="Images/elder-img.jpg" class="img-responsive slider-img" />
+            <div class="caption">
+                <h1 class="caption-txt">Quality Certificates</h1>
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <img src="Images/Export-img.jpg" class="img-responsive slider-img" />
+            <div class="caption">
+                <h1 class="caption-txt">Our Export Scopes</h1>
+            </div>
+        </div>
+
+        <div class="carousel-cell">
+            <img src="Images/Kids-img.jpg" class="img-responsive slider-img" />
+            <div class="caption">
+                <h1 class="caption-txt">Experts in Healthy Food</h1>
+            </div>
+        </div>
+
+    </div>
+    <!--end carousel -->
+    <!--About-->
+    <div class="about-container" id="about">
+        <div class="">
+            <div class="about-sec col-md-4">
+                <div class="row">
+                    <div class="about-title">About Us</div>
+                </div>
+                <div class="row">
+                    <div class="about-txt">
+                        Go Nutrition and Health is one of the leading companies in food supplement, healthy food and superfood in region, we are following the highest quality measures in the world.
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="collapse-btn pil-sec col-md-10 col-xs-10 col-xs-push-1">
+                        <button class="collapsible collapse-title" id="philo-title">Our Philosophies</button>
+                        <div class="content" id="phil-content">
+                            <p class="collapse-subtitle">
+                                <ul style="list-style-type:disc">
+                                    <li>
+                                        The World Is A Complete, Compatible System And We Can Live In The Ecosystem As Partner By Eating The Healthy Food.
+                                    </li>
+                                    <br />
+                                    <li>
+                                        As Long As We Eat Well, Doing Sports Well And Work Well Our Lives Will Be Well.
+                                    </li>
+                                    <br />
+                                    <li>
+                                        Almost Bad Nutrition Habits Encountered With More Than 50% Of Diseases Incidence In Human Being.
+                                    </li>
+
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vision-sec col-md-8">
+                <div class="row">
+
+                    <img src="Images/AboutLogo.png" class="img-responsive img-about" />
+
+                </div>
+                <div class="row">
+                    <div class="vision-title">Vision</div>
+                </div>
+                <div class="row">
+                    <div class="vision-txt">
+                        To Increase The Prevention Value And Healthy Life In Middle East And Africa, And Becoming A Leading Nutriceutical Company worldwide.
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="collapse-btn vis-sec col-md-5">
+                        <button class="collapsible collapse-title">Our Mission</button>
+                        <div class="content">
+                            <p class="collapse-subtitle">
+                                Innovation, Formulation, Packaging High Quality Nutriceutical Products With International Edge.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse-btn val-sec col-md-5 col-md-push-6">
+                        <button class="collapsible collapse-title" id="values-col">Our Values</button>
+                        <div class="content">
+                            <p class="collapse-subtitle">
+                                <ul style="list-style-type:disc">
+                                    <li>
+                                        <span class="value-headers">Quality :</span> We Are Focusing On Offering Premium Quality Products And Services.
+                                    </li>
+                                    <li>
+                                        <span class="value-headers"> Innovation:</span> Our R&D and customer services  departments innovate for better and simpler life.
+
+                                    </li>
+                                    <li>
+                                        <span class="value-headers">Customer focus:</span> We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect of the customer experience a little bit better.
+                                    </li>
+                                    <li>
+                                        <span class="value-headers">kaizen:</span> We Change For Better Everyday.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--End About-->
+    <!--Products-->
+    <div class="product-container" id="products">
+        <div class="container">
+            <div class="row">
+                <h1 class="pro-title">Our Products</h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <div id="pro-slider">
+                        <div id="slider" class="flexslider">
+                            <ul class="slides">
+                                <li>
+                                    <img src="Images/Go-Protein-Bar-cocconut.png" />
+                                </li>
+                                <li>
+                                    <img src="Images/Go-Protein-Bar-Coffee.png" />
+                                </li>
+                                <li>
+                                    <img src="Images/Go-Protein-Bar-muscles-1.png" />
+                                </li>
+                                <li>
+                                    <img src="Images/Go-Whey-Protein-png.png" />
+                                </li>
+                                <li>
+                                    <img src="Images/Go-Protein-bar-collagen-magic.png" />
+                                </li>
+                                <li>
+                                    <img src="Images/Go-Protein-bar-diet.png" />
+                                </li>
+                                <li>
+                                    <img src="Images/Go-Protein-bar-muscle-bulk.png" />
+                                </li>
+                                <li>
+                                    <img src="Images/Go-Protein-bar-super-power.png" />
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div id="carousel" class="flexslider">
+                            <ul class="slides">
+                                <li>
+                                    <img src="Images/Go-Protein-Bar-cocconut.png" />
+                                </li>
+                                <li>
+                                    <img src="Images/Go-Protein-Bar-Coffee.png" />
+                                </li>
+                                <li>
+                                    <img src="Images/Go-Protein-Bar-muscles-1.png" />
+                                </li>
+                                <li>
+                                    <img src="Images/Go-Whey-Protein-png.png" />
+                                </li>
+                                <li>
+                                    <img src="Images/Go-Protein-bar-collagen-magic.png" />
+                                </li>
+                                <li>
+                                    <img src="Images/Go-Protein-bar-diet.png" />
+                                </li>
+                                <li>
+                                    <img src="Images/Go-Protein-bar-muscle-bulk.png" />
+                                </li>
+                                <li>
+                                    <img src="Images/Go-Protein-bar-super-power.png" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4" id="pro-features">
+                    <div class="row">
+                        <div class="pro-details">
+                            <div class="pro-name">Go Protein Bar <span style="color: #ca400f;">Cocconut</span> </div><br />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="pro-det">
+                            <span class="glyphicon glyphicon-chevron-right" style="color: #ca400f;"></span>
+                            22 gram protein ( soy free)
+                        </p>
+                        <br />
+                        <p class="pro-det">
+                            <span class="glyphicon glyphicon-chevron-right" style="color: #ca400f;"></span>
+                            18 grams oats fibers
+                        </p><br />
+                        <p class="pro-det">
+                            <span class="glyphicon glyphicon-chevron-right" style="color: #ca400f;"></span>
+                            24 grams Carb
+
+                        </p><br />
+                        <p class="pro-det">
+                            <span class="glyphicon glyphicon-chevron-right" style="color: #ca400f;"></span>
+                            Chocolate coat
+
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Products-->
+    <!--Contacts-->
+    <div class="contact-container" id="contact-us">
+        <div class="container">
+            <div class="row">
+                <h1 class="contact-title">Contact Us</h1>
+            </div>
+            <div class="row">
+                <div class="form-container">
+                    <!--<form action="https://mailthis.to/GoNutrition" method="post">-->
+                    <form class="gform" method="post" action="https://script.google.com/macros/s/AKfycbyRIy8X2HDlumBO0qJ1Lo2gXsfGoeC77p0DmU7e/exec">
+                        <!--<div class="row">-->
+                        <div class="col-xs-8 col-xs-push-2  styled-input">
+                            <input type="text" name="name" placeholder="Name" required="" class="form-control">
+                        </div>
+                        <!--<div class="col-xs-8 col-xs-push-2 styled-input">
+                            <input type="text" name="Last Name" placeholder="Last Name" required="" class="form-control">
+                        </div>-->
+                        <div class="col-xs-8 col-xs-push-2 styled-input">
+                            <input type="email" name="email" placeholder="Email" required="" class="form-control">
+                        </div>
+                        <div class="col-xs-8 col-xs-push-2 styled-input">
+                            <input type="text" name="Phone" placeholder="Phone" required="" class="form-control">
+                        </div>
+
+                        <div class="clearfix"> </div>
+                        <div class="col-xs-8 col-xs-push-2 styled-input">
+                            <textarea name="message" placeholder="Message" required=""></textarea>
+                        </div>
+                        <div>
+                            <div class="click col-xs-8 col-xs-push-2">
+                                <div class="row">
+                                    <input type="submit" id="submit" value="Send">
+                                </div><br/>
+                                <div class="row">
+                                    <div class="thankyou_message" style="display: none;">
+                                        <div class="alert alert-success" role="alert">
+                                            <p style="text-align: center">
+                                                <em>Thanks</em> for contacting us!
+                                                We will get back to you soon!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--</div>-->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Contacts-->
+    <!--Footer-->
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left upper-footer">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-sm-6 mt-md-0 mt-3">
+                    <div class="footer-contacts">
+                        <span class="glyphicon glyphicon-earphone contacts-icons"></span>
+                        <i class="fab fa-whatsapp contacts-icons"></i>
+                        <i class="fab fa-viber contacts-icons"></i>
+                        <i class="fab fa-telegram-plane contacts-icons"></i>
+                        +2 01060590101
+                    </div><br />
+                    <div class="footer-contacts">
+                        <i class="fas fa-envelope contacts-icons"></i>info@gonutritionworld.com
+                    </div>
+
+
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+
+                <!-- Grid column -->
+                <div class="col-sm-6 mt-md-0 mt-3">
+                    <div class="icons-footer">
+
+                        <a class="social-icons" href="https://www.facebook.com/Go-Nutrition-470630596612839" target="_blank">
+                            <img src="Images/Facebook-Icon.png" />
+                        </a>
+                        <a class="social-icons" href="https://www.instagram.com/go_nutrition_world" target="_blank">
+
+                            <img src="Images/Instagram-ico.png"/>
+                        </a>
+
+                        <a class="social-icons" href="https://api.whatsapp.com/send?phone=201060590101" target="_blank">
+                            <img src="Images/WhatsApp_Icon.png" />
+                        </a>
+                    </div>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-push-4 mb-md-0 mb-3">
+                    <img src="Images/AboutLogo.png" />
+
+
+                </div>
+            </div>
+
+
+        </div>
+        <!-- Footer Links -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+            © 2000 - 2020 Copyright:
+            <a href="https://mdbootstrap.com/bootstrap-tutorial/"> GoNutritionWorld.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+    <!--End Footer-->
+    <!--<script src="Scripts/jquery.mobile-1.4.5.min.js"></script>-->
+    <script src="Scripts/flickity-min.js"></script>
+    <script src="Scripts/jquery.flexslider-min.js"></script>
+    <script src="Scripts/form-submission-handler.js"></script>
+    <script src="Scripts/Script.js"></script>
+
+</body>
+</html>
